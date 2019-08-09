@@ -7,22 +7,42 @@ https://coolors.co/242331-533e2d-a27035-b88b4a-ddca7d
 Global Styles
 -----------------------
 */
+a {
+    color: #B88B4A;
+}
 
+a:hover {
+    text-decoration: none;
+}
 
 /*
 -----------------------
 Header and Footer
 -----------------------
 */
+header, footer {
+    background-color: #242331;
+    color: #A27035;
+}
+
+header h1, header h2 {
+    color: #DDCA7D;
+}
 
 /*
 -----------------------
 Work Experience
 -----------------------
 */
+.work-experience {
+    background-color: #B88B4A;
+}
 
 /*
 -----------------------
 Education
 -----------------------
 */
+.education {
+    background-color: #B88B4A;
+}
