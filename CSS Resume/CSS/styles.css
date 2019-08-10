@@ -12,15 +12,18 @@ Global Styles
 body {
     font-family: 'Roboto', sans-serif;
 }
-
 h1, h2 {
     font-family: 'Handlee', cursive;
 }
-
+h1 {
+    font-size: 70px;
+}
+h2 {
+    font-size: 35px;
+}
 a {
     color: #B88B4A;
 }
-
 a:hover {
     text-decoration: none;
 }
