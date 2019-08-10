@@ -2,13 +2,21 @@
 https://coolors.co/242331-533e2d-a27035-b88b4a-ddca7d
 */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Handlee|Roboto&display=swap');
 
 /*
 -----------------------
 Global Styles
 -----------------------
 */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Handlee', cursive;
+}
+
 a {
     color: #B88B4A;
 }
