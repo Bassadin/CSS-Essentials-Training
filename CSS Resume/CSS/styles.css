@@ -2,7 +2,7 @@
 https://coolors.co/242331-533e2d-a27035-b88b4a-ddca7d
 */
 
-@import url('https://fonts.googleapis.com/css?family=Handlee|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Handlee|Roboto:400,700&display=swap');
 
 /*
 -----------------------
@@ -14,6 +14,7 @@ body {
 }
 h1, h2 {
     font-family: 'Handlee', cursive;
+    font-weight: 400;
 }
 h1 {
     font-size: 70px;
