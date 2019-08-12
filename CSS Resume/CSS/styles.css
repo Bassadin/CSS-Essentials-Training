@@ -52,8 +52,10 @@ header h1, header h2 {
 footer {
     text-align: center;
 }
-footer a {
-    margin: 0 20px;
+.contact-info a {
+    padding: 14px;
+    background-color: lightblue;
+    display: inline-block;
 }
 
 
