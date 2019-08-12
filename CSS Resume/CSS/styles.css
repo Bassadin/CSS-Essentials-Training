@@ -44,10 +44,18 @@ header, footer {
     background-color: #242331;
     color: #A27035;
 }
-
+/* Header Styles */
 header h1, header h2 {
     color: #DDCA7D;
 }
+/* Footer Styles */
+footer {
+    text-align: center;
+}
+footer a {
+    margin: 0 20px;
+}
+
 
 /*
 -----------------------
