@@ -3,78 +3,111 @@ https://coolors.co/242331-533e2d-a27035-b88b4a-ddca7d
 */
 
 @import url('https://fonts.googleapis.com/css?family=Handlee|Roboto:400,700&display=swap');
-
 /*
 -----------------------
 Global Styles
 -----------------------
 */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
+
 h1, h2 {
     font-family: 'Handlee', cursive;
     font-weight: 400;
 }
+
 h1 {
     font-size: 70px;
 }
+
 h2 {
     font-size: 35px;
     margin-top: 0;
 }
+
 a {
     color: #B88B4A;
 }
+
 a:hover {
     text-decoration: none;
 }
+
 .content-wrap {
     max-width: 950px;
     margin: 0 auto;
     padding: 50px;
     overflow: auto;
 }
+
+.col-narrow {
+    width: 30%;
+    float: left;
+    min-height: 175px; /* Text float safety valve */
+}
+
+.col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 30px;
+    min-height: 175px;
+}
+
 /*
 -----------------------
 Header and Footer
 -----------------------
 */
+
 header, footer {
     background-color: #242331;
     color: #A27035;
 }
+
 /* Header Styles */
+
 .profile-image {
-    width: 300px;
     border-radius: 20%;
-    float: left;
-    margin-right: 50px;
 }
+
 header {
     /* text-align: center; */
 }
+
 header h1, header h2 {
     color: #DDCA7D;
     margin: 0;
 }
+
 /* Footer Styles */
+
 footer {
     text-align: center;
 }
+
 .contact-info a {
     padding: 14px;
     background-color: lightblue;
     display: inline-block;
 }
 
-
 /*
 -----------------------
 Work Experience
 -----------------------
 */
+
 .work-experience {
     background-color: #B88B4A;
 }
@@ -84,6 +117,7 @@ Work Experience
 Education
 -----------------------
 */
+
 .education {
     background-color: #B88B4A;
 }
