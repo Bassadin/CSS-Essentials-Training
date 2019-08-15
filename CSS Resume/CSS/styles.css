@@ -82,10 +82,6 @@ header, footer {
     border-radius: 20%;
 }
 
-header {
-    /* text-align: center; */
-}
-
 header h1, header h2 {
     color: #DDCA7D;
     margin: 0;
