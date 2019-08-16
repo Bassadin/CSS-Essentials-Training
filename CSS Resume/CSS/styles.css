@@ -36,33 +36,40 @@ h2 {
     margin-top: 0;
 }
 
+h3 {
+    margin: 0;
+}
+
 a {
-    color: #B88B4A;
+    color: #DDCA7D;
 }
 
 a:hover {
     text-decoration: none;
-    color: #DDCA7D;
+    color: #ECE2B8;
 }
 
 .content-wrap {
     max-width: 950px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 35px;
     overflow: auto;
 }
 
 .col-narrow {
     width: 30%;
     float: left;
-    min-height: 175px; /* Text float safety valve */
+    /* Text float safety valve */
 }
 
 .col-wide {
     width: 70%;
     float: left;
     padding-left: 30px;
-    min-height: 175px;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 
 /*
@@ -94,6 +101,7 @@ footer {
 }
 
 /* Contact info links */
+
 .contact-info a {
     padding: 14px;
     margin: 3px;
@@ -113,6 +121,18 @@ Work Experience
     background-color: #B88B4A;
 }
 
+h3~p {
+    margin: 0;
+}
+
+.job-description {
+    margin-bottom: 25px;
+}
+
+.job-description p:first-of-type {
+    margin-top: 0;
+}
+
 /*
 -----------------------
 Education
@@ -120,5 +140,9 @@ Education
 */
 
 .education {
-    background-color: #B88B4A;
+    background-color: #A27035;
+}
+
+p + h3 {
+    margin-top: 30px;
 }
