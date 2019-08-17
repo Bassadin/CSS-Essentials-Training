@@ -24,6 +24,7 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    background-color: #242331;
 }
 
 h1, h2 {
@@ -113,6 +114,26 @@ footer {
     background-color: #533E2D;
     display: inline-block;
     border-radius: 7px;
+}
+
+/*
+-----------------------
+Navbar
+-----------------------
+*/
+nav {
+    margin-top: 15px;
+    text-align: center;
+}
+nav a {
+    padding: 15px 20px;
+    border: 3px solid #533E2D;
+    border-radius: 7px;
+    margin: 5px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 /*
