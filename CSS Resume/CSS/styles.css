@@ -9,6 +9,8 @@ Global Styles
 -----------------------
 */
 
+/* Box Model Fix Start */
+
 html {
     box-sizing: border-box;
 }
@@ -16,6 +18,8 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+/* Box Model Fix End */
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -143,6 +147,6 @@ Education
     background-color: #A27035;
 }
 
-p + h3 {
+p+h3 {
     margin-top: 30px;
 }
