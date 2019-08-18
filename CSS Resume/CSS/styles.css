@@ -57,7 +57,7 @@ a:hover {
 .content-wrap {
     max-width: 950px;
     margin: 0 auto;
-    padding: 35px;
+    padding: 60px 50px;
     overflow: auto;
 }
 
@@ -82,6 +82,10 @@ a:hover {
 Header and Footer
 -----------------------
 */
+
+header {
+    padding-top: 80px;
+}
 
 header, footer {
     background-color: #242331;
@@ -122,11 +126,16 @@ Navbar
 -----------------------
 */
 nav {
-    margin-top: 15px;
+    padding: 4px 0;
     text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #14141B;
+    border-bottom: 1px solid black;
 }
 nav a {
-    padding: 15px 20px;
+    padding: 10px 14px;
     border: 3px solid #533E2D;
     border-radius: 7px;
     margin: 5px;
