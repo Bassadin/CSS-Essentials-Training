@@ -163,7 +163,9 @@ Work Experience
 */
 
 .work-experience {
-    background-color: #B88B4A;
+    background:
+        linear-gradient(rgba(184, 139, 74, 0.9), rgba(184, 139, 74, 0.9)),
+        url(../images/unifreiburg.jpg) no-repeat center center fixed;
 }
 
 h3~p {
@@ -185,7 +187,9 @@ Education
 */
 
 .education {
-    background-color: #A27035;
+    background:
+        linear-gradient(rgba(162, 112, 53, 0.9), rgba(162, 112, 53, 0.9)),
+        url(../images/msgbreisach.jpg) no-repeat center center fixed;
 }
 
 p+h3 {
