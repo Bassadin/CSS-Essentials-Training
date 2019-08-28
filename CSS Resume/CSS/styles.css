@@ -99,13 +99,13 @@ Header and Footer
 */
 
 header {
-    padding-top: 80px;
+    padding-top: 40px;
     position: relative;
 }
 
 .header-download-btn {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 header, footer {
@@ -144,6 +144,7 @@ nav {
     width: 100%;
     background-color: #14141B;
     border-bottom: 1px solid black;
+    z-index: 500;
 }
 nav a {
     padding: 10px 14px;
