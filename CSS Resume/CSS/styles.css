@@ -61,20 +61,6 @@ a:hover {
     overflow: auto;
 }
 
-.col-narrow {
-    width: 30%;
-    float: left;
-    /* Text float safety valve */
-    position: relative;
-}
-
-.col-wide {
-    width: 70%;
-    float: left;
-    padding-left: 30px;
-    position: relative;
-}
-
 .uppercase {
     text-transform: uppercase;
 }
@@ -194,4 +180,25 @@ Education
 
 p+h3 {
     margin-top: 30px;
+}
+
+
+/*
+-----------------------
+Media Queries
+-----------------------
+*/
+@media (min-width: 900px) {
+    .col-narrow {
+        width: 30%;
+        float: left;
+        /* Text float safety valve */
+        position: relative;
+    }
+    .col-wide {
+        width: 70%;
+        float: left;
+        padding-left: 30px;
+        position: relative;
+    }
 }
