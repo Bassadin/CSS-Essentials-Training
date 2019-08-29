@@ -203,3 +203,25 @@ Media Queries
         position: relative;
     }
 }
+
+@media (max-width: 899px) {
+    h1 {
+        font-size: 2.7em;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+    header {
+        text-align: center;
+    }
+    .col-wide {
+        margin-top: 25px;
+    }
+    .profile-image {
+        width: 200px;
+    }
+    .contact-info {
+        display: grid;
+    }
+}
